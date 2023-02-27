@@ -1,0 +1,31 @@
+{
+    "desarrolladora" : "SoftCreate",
+    "email" : "contacto@softcreate.com",
+    "link-web" : "https://SoftCreate.com",
+    "estado" : true,
+    "proyectos" : [
+        {
+            "id":653,
+            "nombre":"Ajedrez Online",
+            "descipcion":"Ajedrez vs IA y vs otros usuarios, con rankigs y puntuaciones",
+            "numeroVacantes":100,
+            "admision":true
+        },
+
+        {
+            "id":1203,
+            "nombre":"Software de Imprenta de Fotografías",
+            "descipcion":"Aplicación para selección, edición y imprenta de imagenes para usuarios en tienda física",
+            "numeroVacantes":50,
+            "admision":false
+        },
+
+        {
+            "id":324,
+            "nombre":"Tienda Web AlwaysFresh",
+            "descipcion":"Tienda Web con busqueda por categoria y ordenación por valores",
+            "numeroVacantes":20,
+            "admision":true
+        }
+    ]
+}
