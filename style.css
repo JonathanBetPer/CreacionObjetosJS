@@ -10,13 +10,13 @@ body {
 }
 
 .contenido  {
-  background-color: rgba(118, 73, 221, 0.755);
+  background-color: rgba(183, 101, 38, 0.755);
   border-radius: 2.5rem;
   margin: 3rem;
 }
 
 h1, h2 {
-  font-family: 'Faster One', cursive;
+  
 }
 
 /* header styles */
@@ -34,13 +34,22 @@ header p {
 
 /* section styles */
 
+section{
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+}
+
 section article {
-  width: 33%;
-  float: left;
+  background-color: rgba(128, 117, 109, 0.755);
+  border-radius: 2.5rem;
+  margin: 3rem;
+  padding: 0 1.5rem;
+  width: 100%;
 }
 
 section p {
-  margin: 5px 0;
+  margin: 0;
 }
 
 section ul {
