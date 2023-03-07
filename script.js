@@ -31,21 +31,29 @@ function showInfo(jsonObj) {
 
   for (var i = 0; i < proyectos.length; i++) {
     const myArticle = document.createElement('article');
+    const div = document.createElement('div');
     const myH2 = document.createElement('h2');
     const myPara1 = document.createElement('p');
     const myPara2 = document.createElement('p');
     const myPara3 = document.createElement('p');
+    const boton = document.createElement('button');
+
+    boton.textContent='Unirse'
 
     myH2.textContent = proyectos[i].nombre;
-    myPara1.textContent = 'id: ' + proyectos[i].id;
-    myPara2.textContent = 'descripcion: ' + proyectos[i].descipcion;
-    myPara3.textContent = 'numeroVacantes: ' + proyectos[i].numeroVacantes;
-
+    myPara1.textContent = 'ID: ' + proyectos[i].id;
+    myPara2.textContent = 'Descripcion: ' + proyectos[i].descipcion;
+    myPara3.textContent = 'Numero de vacantes: ' + proyectos[i].numeroVacantes;
+    
+    
+    div.appendChild(myPara1);
+    div.appendChild(myPara2);
+    div.appendChild(myPara3);
+    div.appendChild(boton);
+    
     myArticle.appendChild(myH2);
-    myArticle.appendChild(myPara1);
-    myArticle.appendChild(myPara2);
-    myArticle.appendChild(myPara3);
-
+    myArticle.appendChild(div);
+    
     section.appendChild(myArticle);
   }
 }
